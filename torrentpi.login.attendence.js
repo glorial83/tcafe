@@ -1,0 +1,36 @@
+// ==UserScript==
+// @name         torrentpi.login.attendence
+// @namespace    http://tampermonkey.net/
+// @version      2025-04-21
+// @description  try to take over the world!
+// @author       You
+// @match        https://*.torrentpi150.com/bbs/board.php?bo_table=chulsuk
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=torrentpi150.com
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    // 로그인 여부
+    const userNm = document.querySelector('#thema_wrapper > aside.at-lnb > div > div.pull-right > ul > li:nth-child(1) > a > b');
+    if (!userNm) {
+        return;
+    }
+
+    // 오늘 로그인 되었는지 확인
+    const loginDate = get_cookie("loginDate");
+    const nowDate = new Date().toDateString();
+
+    // 로그인이 없거나 다른날짜라면 출첵하기
+    if (!loginDate || loginDate != nowDate) {
+        /*
+        set_cookie("loginDate", nowDate);
+
+        const attendanceLink = document.querySelector(
+            "#cnftjr > div > form > table > tbody > tr > td > img"
+        );
+        attendanceLink.click();
+        */
+    }
+})();
