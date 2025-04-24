@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      2025-04-21
 // @description  try to take over the world!
-// @author       You
+// @author       glorial
 // @match        https://*.torrentpi150.com/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=torrentpi150.com
 // @grant        none
