@@ -24,13 +24,9 @@
 
     // 로그인이 없거나 다른날짜라면 출첵하기
     if (!loginDate || loginDate != nowDate) {
-        /*
         set_cookie("loginDate", nowDate);
 
-        const attendanceLink = document.querySelector(
-            "#cnftjr > div > form > table > tbody > tr > td > img"
-        );
+        const attendanceLink = document.querySelector("#talk_submit");
         attendanceLink.click();
-        */
     }
 })();
