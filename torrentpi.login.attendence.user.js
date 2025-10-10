@@ -4,7 +4,7 @@
 // @version      2025-10-10
 // @description  try to take over the world!
 // @author       glorial
-// @match        https://torrentpi*.com/bbs/board.php?bo_table=chulsuk
+// @match        https://torrentpi160.com/bbs/board.php?bo_table=chulsuk
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=torrentpi160.com
 // @grant        none
 // ==/UserScript==
