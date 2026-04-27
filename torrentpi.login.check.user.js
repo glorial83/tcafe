@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         torrentpi.login.check
 // @namespace    http://tampermonkey.net/
-// @version      2025-10-10
+// @version      2026-04-27
 // @description  try to take over the world!
 // @author       glorial
 // @include      https://*torrentpi*/?captcha_key=*
