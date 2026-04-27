@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         torrentpi.login.attendence
 // @namespace    http://tampermonkey.net/
-// @version      2025-10-10
+// @version      2026-04-27
 // @description  try to take over the world!
 // @author       glorial
-// @match        https://torrentpi160.com/bbs/board.php?bo_table=chulsuk
+// @include      https://*torrentpi*/bbs/board.php?bo_table=chulsuk
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=torrentpi160.com
 // @grant        none
 // ==/UserScript==
