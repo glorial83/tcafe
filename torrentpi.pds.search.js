@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         torrentpi.pds.search
 // @namespace    http://tampermonkey.net/
-// @version      2025-10-10
+// @version      2026-04-28
 // @description  try to take over the world!
 // @author       glorial
-// @include      /^https:\/\/torrentpi160\.com\/bbs\/board\.php\?bo_table=zsd&sca=&sfl=wr_subject&stx=.*
-// @include      /^https:\/\/torrentpi160\.com\/bbs\/board\.php\?bo_table=zsd&sfl=wr_subject&stx=.*
+// @include      /^https:\/\/.*torrentpi.*\.com\/bbs\/board\.php\?bo_table=zsd&sca=&sfl=wr_subject&stx=.*
+// @include      /^https:\/\/.*torrentpi.*\.com\/bbs\/board\.php\?bo_table=zsd&sfl=wr_subject&stx=.*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=torrentpi160.com
 // @grant        none
 // ==/UserScript==
