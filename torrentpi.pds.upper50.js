@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @updateURL    https://github.com/KID-joker/userscript/blob/main/multiple-search.js
 // @downloadURL  https://github.com/KID-joker/userscript/blob/main/multiple-search.js
-// @version      2026-04-28
+// @version      2026-05-04
 // @description  try to take over the world!
 // @author       glorial
 // @include      https://*torrentpi*.com/bbs/board.php?bo_table=*
