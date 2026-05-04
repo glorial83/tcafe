@@ -6,7 +6,7 @@
 // @version      2026-04-28
 // @description  try to take over the world!
 // @author       glorial
-// @include      https://*.torrentpi*.com/bbs/board.php?bo_table=*
+// @include      https://*torrentpi*.com/bbs/board.php?bo_table=*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=torrentpi160.com
 // @grant        none
 // ==/UserScript==
